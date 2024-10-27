@@ -4,7 +4,7 @@ body, html {
     font-family: sans-serif,Tahoma;
 }
 
-.header_contact #container {
+.header_contact .container {
     margin-right: auto;
     margin-left: auto;
     width: 100%;
@@ -22,21 +22,21 @@ body, html {
     width: 30%;
     float: right;
 }
-.header_contact #container ul {
+.header_contact .container ul {
     display: flex;
     list-style-type: none;
 }
-.header_contact #container .left ul {
+.header_contact .container .left ul {
     justify-content: center;
     margin-left: 200px;
 }
-.header_contact #container .left ul  li a {
+.header_contact .container .left ul  li a {
     text-decoration: none;
     color: black;
     font-size: 20px;
     margin-left: 70px;
 }
-.header_contact #container .right ul  li a {
+.header_contact .container .right ul  li a {
     text-decoration: none;
     font-size: 20px;
     color: black;
