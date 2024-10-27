@@ -1,7 +1,7 @@
 body, html {
     margin: 0;
     padding: 0;
-    font-family: sans-serif,Tahoma;
+    font-family: sans-serif, Tahoma;
 }
 
 .header_contact .container {
@@ -13,32 +13,88 @@ body, html {
     background-color: #A4C3A2;
     padding-top: 5px;
 }
-.header_contact .left{
+
+.header_contact .left {
     width: 70%;
     float: left;
     justify-content: center;
 }
-.header_contact .right{
+
+.header_contact .right {
     width: 30%;
     float: right;
 }
+
 .header_contact .container ul {
     display: flex;
     list-style-type: none;
 }
+
 .header_contact .container .left ul {
     justify-content: center;
     margin-left: 200px;
 }
-.header_contact .container .left ul  li a {
+
+.header_contact .container .left ul li a {
     text-decoration: none;
     color: black;
-    font-size: 20px;
+    font-size: 15px;
     margin-left: 70px;
 }
-.header_contact .container .right ul  li a {
+
+.header_contact .container .right ul li a {
     text-decoration: none;
-    font-size: 20px;
+    font-size: 15px;
     color: black;
     margin-left: 40px;
+}
+
+.navigation_titlePage .alpha img {
+    position: relative;
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.navigation_titlePage .omega {
+    position: absolute;
+    top: 65px;
+    padding: 80px 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    height: 140px;
+    background-color: rgba(255, 255, 255, 0.5); /*rgba(255,255,255,0.5):trắng khói*/
+    pointer-events: none;
+    z-index: 2;
+}
+
+.navigation_titlePage .container {
+    font-family: sans-serif, Tahoma;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+}
+
+.navigation_titlePage .omega .title {
+    font-size: 50px;
+}
+
+.navigation_titlePage .omega .path {
+    display: flex;
+    justify-content: center;
+}
+
+.navigation_titlePage .path ul {
+    list-style-type: none;
+    display: flex;
+    float: right;
+    padding: 0 20px;
+}
+.navigation_titlePage .path .home {
+    font-weight: bold;
+    margin-top: 15px;
+}
+.navigation_titlePage .path .contact{
+    margin-top: 15px;
 }
