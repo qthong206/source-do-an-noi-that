@@ -10,7 +10,6 @@ body, html {
     width: 100%;
     height: 60px;
     display: flex;
-    background-color: #A4C3A2;
     padding-top: 5px;
 }
 
@@ -77,7 +76,8 @@ body, html {
 }
 
 .navigation_titlePage .omega .title {
-    font-size: 50px;
+    font-size: 48px;
+    font-weight: 500;
 }
 
 .navigation_titlePage .omega .path {
@@ -87,14 +87,165 @@ body, html {
 
 .navigation_titlePage .path ul {
     list-style-type: none;
-    display: flex;
     float: right;
-    padding: 0 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 15px;
 }
+
 .navigation_titlePage .path .home {
-    font-weight: bold;
+    font-weight: 600;
     margin-top: 15px;
+    font-size: 16px;
 }
-.navigation_titlePage .path .contact{
+
+.navigation_titlePage .path .contact {
     margin-top: 15px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.content_section_1 .container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+}
+
+.content_section_1 .labelTitle {
+    margin-top: 70px;
+    font-size: 36px;
+    font-weight: 600;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.content_section_1 .more_information {
+    text-align: center;
+    margin-top: 20px;
+    font-family: "Segoe UI", Tahoma;
+    color: #9F9F9F;
+    font-size: 15px;
+    font-weight: 350;
+}
+
+.content_section_1 .content {
+    display: flex;
+    margin-top: 120px;
+}
+
+.content_section_1 .content .alpha {
+    margin-left: 200px;
+    margin-right: 100px;
+}
+
+.content_section_1 .content .alpha .address {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.content_section_1 .content .alpha .phone {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.content_section_1 .content .alpha .workingTime {
+    display: flex;
+}
+
+.content_section_1 .content .alpha .address ul {
+    list-style-type: none;
+    font-size: 30px;
+}
+
+.content_section_1 .content .alpha .phone ul {
+    list-style-type: none;
+    font-size: 40px;
+}
+
+.content_section_1 .content .alpha .workingTime ul {
+    list-style-type: none;
+    font-size: 25px;
+}
+
+.content_section_1 .alpha .address .title {
+    margin-top: 33px;
+    margin-left: 30px;
+    font-size: 25px;
+    font-weight: 600;
+    height: 70px;
+    width: 100%;
+}
+
+.content_section_1 .alpha .content {
+    font-size: 15px;
+    margin-top: 5px;
+    font-weight: normal;
+}
+
+.content_section_1 .alpha .phone .title {
+    margin-top: 50px;
+    margin-left: 35px;
+    font-size: 25px;
+    font-weight: 600;
+    height: 70px;
+    width: 100%;
+}
+
+.content_section_1 .alpha .workingTime .title {
+    margin-top: 25px;
+    margin-left: 30px;
+    font-size: 25px;
+    font-weight: 600;
+    height: 70px;
+    width: 100%;
+}
+
+.content_section_1 .omega form {
+    display: table-caption;
+    margin-left: 50px;
+}
+
+.content_section_1 .omega form input {
+    width: 530px;
+    height: 70px;
+    border-radius: 15px;
+    padding-left: 15px;
+    border: 2px solid #5D7B6F;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.content_section_1 .omega label {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Segoe UI Semibold";
+}
+
+.content_section_1 .omega form .message-container {
+    display: table-caption;
+}
+
+.content_section_1 .omega form .message-container textarea {
+    width: 530px;
+    height: 110px;
+    border-radius: 15px;
+    padding-left: 15px;
+    padding-top: 20px;
+    border: 2px solid #5D7B6F;
+    resize: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.content_section_1 .omega form .submit_btn {
+    width: 240px;
+    height: 50px;
+    border-radius: 15px;
+    border: 2px solid #5D7B6F;
+    background-color: #A4C3A2;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    font-family: "Segoe UI Semibold";
 }
