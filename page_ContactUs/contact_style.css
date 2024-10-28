@@ -249,3 +249,41 @@ body, html {
     margin-bottom: 60px;
     font-family: "Segoe UI Semibold";
 }
+
+.content_section_2 {
+    display: flex;
+    background-color: #EDE0D4;
+    height: 170px;
+    width: 100%;
+}
+
+.content_section_2 .free_delivery {
+    margin-top: 50px;
+    margin-left: 120px;
+    margin-right: 100px;
+
+}
+
+.content_section_2 .return {
+    margin-top: 50px;
+    margin-left: 120px;
+    margin-right: 100px;
+}
+
+.content_section_2 .secure_payment {
+    margin-top: 50px;
+    margin-left: 120px;
+    margin-right: 100px;
+}
+
+.content_section_2 .title {
+    font-size: 30px;
+    font-weight: 500;
+    font-family: "Segoe UI";
+}
+
+.content_section_2 .content {
+    color: #9F9F9F;
+    margin-top: 10px;
+    font-family: sans-serif;
+}
