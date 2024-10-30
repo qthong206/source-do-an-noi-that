@@ -350,3 +350,8 @@ html {
     line-height: 60px;
     /* Căn giữa kết quả hiển thị với chiều cao thanh */
 }
+
+.product-block img {
+    width: 100%;
+    height: auto;
+}
